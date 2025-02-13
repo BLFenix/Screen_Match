@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a247265-3719-4062-8f7f-1887cd55a201" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.obsidian/workspace.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Estudos/5. Autodidata/Cursos/Alura/Formação/2.0 Java POO/1.0 Linguagem Java/Java.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Estudos/5. Autodidata/Cursos/Alura/Formação/2.0 Java POO/1.0 Linguagem Java/Java.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Pessoal/0. Agenda/Notas Diárias/2025-02-13.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Pessoal/0. Agenda/Notas Diárias/2025-02-13.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

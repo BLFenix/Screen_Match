@@ -8,13 +8,43 @@ public class Film {
     private int totalRating = 0;
     private double ratingSum = 0;
 
+// Getters:
+
+    public String getName() {
+        return name;
+    }
+
+    public int getDurationInMinutes() {
+        return durationInMinutes;
+    }
+
+    public int getReleaseYear() {
+        return releaseYear;
+    }
+
+    public boolean isIncludedInThePlan() {
+        return includedInThePlan;
+    }
+
+// Setters:
+
     public void setName(String name) {
         this.name = name;
     }
 
-    public int getTotalRating(){
-        return totalRating;
+    public void setDurationInMinutes(int durationInMinutes) {
+        this.durationInMinutes = durationInMinutes;
     }
+
+    public void setReleaseYear(int releaseYear) {
+        this.releaseYear = releaseYear;
+    }
+
+    public void setIncludedInThePlan(boolean includedInThePlan) {
+        this.includedInThePlan = includedInThePlan;
+    }
+
+// Methods:
 
     public void showTechnicalSheet(){
         System.out.println("Nome do filme: "+name);
