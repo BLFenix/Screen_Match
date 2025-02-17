@@ -1,21 +1,20 @@
-public class Film {
+package gabrielramos.screenmatch.titles;
 
+public class Title {
     private String name;
-    private int durationInMinutes;
+    private int durationMinutes;
     private int releaseYear;
     private boolean includedInThePlan;
-    private double ratingAverage = 0;
-    private int totalRating = 0;
-    private double ratingSum = 0;
-
-// Getters:
+    private double averageRating = 0;
+    private int totalRatings = 0;
+    private double sumOfRatings = 0;
 
     public String getName() {
         return name;
     }
 
-    public int getDurationInMinutes() {
-        return durationInMinutes;
+    public int getDurationMinutes() {
+        return durationMinutes;
     }
 
     public int getReleaseYear() {
@@ -26,14 +25,16 @@ public class Film {
         return includedInThePlan;
     }
 
-// Setters:
+    public double getAverageRating() {
+        return averageRating;
+    }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setDurationInMinutes(int durationInMinutes) {
-        this.durationInMinutes = durationInMinutes;
+    public void setDurationMinutes(int durationMinutes) {
+        this.durationMinutes = durationMinutes;
     }
 
     public void setReleaseYear(int releaseYear) {
@@ -44,27 +45,25 @@ public class Film {
         this.includedInThePlan = includedInThePlan;
     }
 
-// Methods:
-
     public void showTechnicalSheet(){
-        System.out.println("Nome do filme: "+name);
-        System.out.println("Tempo de duração: "+durationInMinutes+" minutos!");
-        System.out.println("Avaliações: "+ ratingAverage);
-        System.out.println("Incluído no plano: "+includedInThePlan);
+        System.out.println("Nome: "+name);
+        System.out.println("Tempo de duração: "+ durationMinutes +" minutos!");
+        System.out.println("Avaliações: "+ averageRating);
+        System.out.println("Incluído no plano: "+ includedInThePlan);
         System.out.println("Ano de lançamento: "+releaseYear);
     }
 
     public void evaluate(double newReview){
-        ratingSum += newReview;
-        totalRating++;
+        sumOfRatings += newReview;
+        totalRatings++;
 
         System.out.println("Sua avaliação é: "+newReview);
     }
 
     public void showCalculateRatingAverage(){
-        if (totalRating != 0){
-            ratingAverage = (double) ratingSum / totalRating;
-            System.out.println("A média de avaliação é: "+ ratingAverage);
+        if (totalRatings != 0){
+            averageRating = (double) sumOfRatings / totalRatings;
+            System.out.println("A média de avaliação é: "+ averageRating);
         }else {
             System.out.println(("Não há nenhuma avaliação disponível"));
         }
