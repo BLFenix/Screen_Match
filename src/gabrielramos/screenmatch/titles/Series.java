@@ -1,11 +1,15 @@
 package gabrielramos.screenmatch.titles;
-import gabrielramos.screenmatch.calculations.Classifiable;
+import gabrielramos.screenmatch.classification.Classifiable;
 
 public class Series extends Title implements Classifiable {
     private int seasons;
     private int episodesPerSeasons;
     private boolean releaseStatus;
     private int minutesPerEpisodes;
+
+    public Series(String name, int releaseYear) {
+        super(name, releaseYear);
+    }
 
     public int getSeasons() {
         return seasons;
@@ -46,7 +50,7 @@ public class Series extends Title implements Classifiable {
 
     @Override
     public int getClassifiableEvaluate() {
-        return (int) getAverageRating();
+        return (int) getAverageRating() / 2;
     }
 
     @Override

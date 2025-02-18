@@ -9,6 +9,11 @@ public class Title {
     private int totalRatings = 0;
     private double sumOfRatings = 0;
 
+    public Title(String name, int releaseYear) {
+        this.name = name;
+        this.releaseYear = releaseYear;
+    }
+
     public String getName() {
         return name;
     }
@@ -29,16 +34,8 @@ public class Title {
         return averageRating;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public void setDurationMinutes(int durationMinutes) {
         this.durationMinutes = durationMinutes;
-    }
-
-    public void setReleaseYear(int releaseYear) {
-        this.releaseYear = releaseYear;
     }
 
     public void setIncludedInThePlan(boolean includedInThePlan) {
@@ -56,16 +53,13 @@ public class Title {
     public void evaluate(double newReview){
         sumOfRatings += newReview;
         totalRatings++;
+        averageRating = (double) sumOfRatings / totalRatings;
 
         System.out.println("Sua avaliação é: "+newReview);
     }
 
-    public void showCalculateRatingAverage(){
-        if (totalRatings != 0){
-            averageRating = (double) sumOfRatings / totalRatings;
-            System.out.println("A média de avaliação é: "+ averageRating);
-        }else {
-            System.out.println(("Não há nenhuma avaliação disponível"));
-        }
+    @Override
+    public String toString() {
+        return ("Título: " + this.getName());
     }
 }

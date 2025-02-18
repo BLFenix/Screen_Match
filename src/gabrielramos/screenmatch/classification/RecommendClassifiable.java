@@ -1,4 +1,4 @@
-package gabrielramos.screenmatch.calculations;
+package gabrielramos.screenmatch.classification;
 
 public class RecommendClassifiable {
 

@@ -1,3 +1,5 @@
+package gabrielramos.screenmatch.main;
+
 import gabrielramos.screenmatch.classification.RecommendClassifiable;
 import gabrielramos.screenmatch.titles.Film;
 import gabrielramos.screenmatch.titles.Series;
@@ -6,34 +8,32 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Film filmSonic = new Film("Sonic", 2019);
-        Film filmTails = new Film("Tails", 2024);
-        Series series = new Series("Alice in Booderland", 2015);
+        Film sonic = new Film("Sonic", 2019);
+        Film tails = new Film("Tails", 2024);
+        Series aliceInBooderland = new Series("Alice in Booderland", 2015);
         RecommendClassifiable recommendByStars = new RecommendClassifiable();
         ArrayList<Film> films = new ArrayList<>();
 
-        filmSonic.setIncludedInThePlan(false);
-        filmSonic.setDurationMinutes(345);
+        sonic.setIncludedInThePlan(false);
+        sonic.setDurationMinutes(345);
+        sonic.evaluate(10);
+        System.out.println(sonic.getAverageRating());
 
-        filmSonic.showCalculateRatingAverage();
+        tails.setIncludedInThePlan(true);
+        tails.setDurationMinutes(178);
+        tails.evaluate(9);
+        System.out.println(tails.getAverageRating());
 
-        filmTails.setIncludedInThePlan(true);
-        filmTails.setDurationMinutes(178);
+        aliceInBooderland.setIncludedInThePlan(false);
+        aliceInBooderland.evaluate(8.9);
+        aliceInBooderland.evaluate(6.5);
+        aliceInBooderland.evaluate(3.9);
+        System.out.println(aliceInBooderland.getAverageRating());
 
-        filmTails.showCalculateRatingAverage();
+        recommendByStars.RecommendClassifiableFilter(aliceInBooderland);
 
-        series.setIncludedInThePlan(false);
-
-        series.evaluate(8.9);
-        series.evaluate(6.5);
-        series.evaluate(3.9);
-
-        series.showCalculateRatingAverage();
-
-        recommendByStars.RecommendClassifiableFilter(series);
-
-        films.add(filmSonic);
-        films.add(filmTails);
+        films.add(sonic);
+        films.add(tails);
 
         System.out.println(films);
     }

@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a247265-3719-4062-8f7f-1887cd55a201" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/calculations/Classifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/calculations/RecommendClassifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Series.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/main/MainWithLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/Film.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Screen_Match/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Title.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/br/com/gabrielramos/screenmatch/calculations/RecommendByStars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/br/com/gabrielramos/screenmatch/calculations/StarsEvaluate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/br/com/gabrielramos/screenmatch/titles/Film.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/br/com/gabrielramos/screenmatch/titles/Series.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/br/com/gabrielramos/screenmatch/titles/Title.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gabrielramos/screenmatch/calculations/Classifiable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/classification/Classifiable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gabrielramos/screenmatch/calculations/RecommendClassifiable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/classification/RecommendClassifiable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Title.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +52,7 @@
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.Main.executor": "Run",
+    "Application.MainWithLists.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -57,16 +64,30 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainWithLists">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="gabrielramos.screenmatch.main.Main" />
       <module name="Screen_Match" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainWithLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gabrielramos.screenmatch.main.MainWithLists" />
+      <module name="Screen_Match" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gabrielramos.screenmatch.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainWithLists" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
