@@ -1,6 +1,10 @@
 package gabrielramos.screenmatch.titles;
 
-public class Title {
+import gabrielramos.screenmatch.titles.exception.RuntimeCollectErrorException;
+
+import java.util.Objects;
+
+public class Title implements Comparable<Title>{
     private String name;
     private int durationMinutes;
     private int releaseYear;
@@ -12,6 +16,16 @@ public class Title {
     public Title(String name, int releaseYear) {
         this.name = name;
         this.releaseYear = releaseYear;
+    }
+
+    public Title(TitleOmdb titleOmdb) {
+        this.name = titleOmdb.title();
+        if (titleOmdb.runtime().replaceAll("\\D", "").equals("")){
+            throw new RuntimeCollectErrorException("O tempo de duração não foi obtido!");
+        }else {
+            this.durationMinutes = Integer.parseInt(titleOmdb.runtime().replaceAll("\\D", ""));
+        }
+        this.releaseYear = Integer.parseInt(titleOmdb.year().replaceAll("\\D", ""));
     }
 
     public String getName() {
@@ -60,6 +74,13 @@ public class Title {
 
     @Override
     public String toString() {
-        return ("Título: " + this.getName());
+        return ("\n(Nome: " + this.name
+                + "\nTempo de duração: " + durationMinutes
+                + " minutos!\nAno de lançamento: " + releaseYear + ")");
+    }
+
+    @Override
+    public int compareTo(Title otherTitle) {
+        return this.getName().compareTo(otherTitle.getName());
     }
 }

@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a247265-3719-4062-8f7f-1887cd55a201" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/main/MainWithLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/main/MainWithSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/TitleOmdb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/exception/RuntimeCollectErrorException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/br/com/gabrielramos/screenmatch/calculations/RecommendByStars.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/br/com/gabrielramos/screenmatch/calculations/StarsEvaluate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/br/com/gabrielramos/screenmatch/titles/Film.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/br/com/gabrielramos/screenmatch/titles/Series.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/br/com/gabrielramos/screenmatch/titles/Title.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gabrielramos/screenmatch/calculations/Classifiable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/classification/Classifiable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gabrielramos/screenmatch/calculations/RecommendClassifiable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/classification/RecommendClassifiable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Film.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screen_Match.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Screen_Match.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/gabrielramos/screenmatch/main/MainWithLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Screen_Match/gabrielramos/screenmatch/main/MainWithLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Screen_Match/gabrielramos/screenmatch/titles/Title.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Screen_Match/gabrielramos/screenmatch/titles/Title.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gabrielramos/screenmatch/main/MainWithLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/main/MainWithLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gabrielramos/screenmatch/titles/Title.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Study/4. Autodidata/Cursos/Alura/Formação/2.0 Java POO/3.0 Consuming API/0-Pratica/BuscaCEP/src/Addresses/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Study/4. Autodidata/Cursos/Alura/Formação/2.0 Java POO/3.0 Consuming API/0-Pratica/BuscaCEP/src/Addresses/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Study/4. Autodidata/Cursos/Alura/Formação/2.0 Java POO/3.0 Consuming API/0-Pratica/BuscaCEP/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Study/4. Autodidata/Cursos/Alura/Formação/2.0 Java POO/3.0 Consuming API/0-Pratica/BuscaCEP/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -48,23 +45,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Application.Main.executor": "Run",
-    "Application.MainWithLists.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/gabri/Meu Drive (gabrielobsbackupcastro@gmail.com)/Gabriel Ramos/Study/4. Autodidata/Cursos/Alura/Formação/2.0 Java POO/1.0 Linguagem Java/0-Pratica/Listen_To_Great",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainWithLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainWithSearch.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabri/Meu Drive (gabrielobsbackupcastro@gmail.com)/Gabriel Ramos/Repositórios/Meus/Screen_Match/library/gson-2.12.1.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.MainWithLists">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="gabrielramos.screenmatch.titles.exception" />
+      <recent name="gabrielramos.screenmatch.main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainWithSearch">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gabrielramos.screenmatch.main.Main" />
       <module name="Screen_Match" />
@@ -85,8 +89,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainWithSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gabrielramos.screenmatch.main.MainWithSearch" />
+      <module name="Screen_Match" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gabrielramos.screenmatch.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainWithSearch" />
         <item itemvalue="Application.MainWithLists" />
         <item itemvalue="Application.Main" />
       </list>
@@ -125,5 +143,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="vault backup: 2025-02-20 16:45:43&#10;Uploads" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
